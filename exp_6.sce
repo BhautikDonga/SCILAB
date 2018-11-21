@@ -3,8 +3,8 @@ i_x= input("Enter the range of Xn ");
 Hn = input("Enter the value of Hn ");
 i_h= input("Enter the range of Hn ");
 
-exec("E:\scilab\work_17BIT009\Exp_6_fun.sce");
-[Yn,In] = Exp_6_fun(Xn,i_x,Hn,i_h);
+exec("E:\scilab\work_17BIT009\exp_6_fun.sce");
+[Yn,In] = exp_6_fun(Xn,i_x,Hn,i_h);
 
 figure(1);
 
