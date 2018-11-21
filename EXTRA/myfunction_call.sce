@@ -1,0 +1,9 @@
+a=2;
+b=3;
+c=4;
+d=5;
+exec('myfunction.sce');
+[p,q,r]=myfunction(a,b,c,d);
+disp(p)
+disp(q)
+disp(r)
