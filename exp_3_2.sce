@@ -7,7 +7,7 @@ plot(x,y);
 
 xlabel('X');
 ylabel('Y');
-title(r,"Circle of radius ");
+title("Circle of radius "+ string(r));
 
 figure(2);
 plot(x,y,'o');
