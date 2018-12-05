@@ -5,7 +5,7 @@ Xn = input("Enter The value  of  Xn: ");
 sum = 0;
 
 for i=1:N+1
-    if(i==0 || i==N+1) then
+    if(i==1 || i==N+1) then
         sum = sum + (Xn(i)/2);
     else
         sum = sum + Xn(i);
